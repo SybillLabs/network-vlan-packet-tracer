@@ -12,10 +12,10 @@ Maquette réalisée sur **Cisco Packet Tracer**. Le fichier de laboratoire est d
 
 > Ce dépôt est référencé depuis [**SysNet Practice Labs**](https://github.com/SybillLabs/sysnet-practice-labs.git), le hub central de mes labs d'administration d'infrastructure sécurisée.
 
-## `> initial model`
+## `> initial_model`
 ![image](/screenshots/image.png)
 
-## `> model perimeter`
+## `> model_perimeter`
 
 | Exigence                                                 | Mise en œuvre                                                |
 | -------------------------------------------------------- | ------------------------------------------------------------ |
@@ -61,8 +61,8 @@ Maquette réalisée sur **Cisco Packet Tracer**. Le fichier de laboratoire est d
 14. [**Protection contre un serveur DHCP non autorisé**](/docs/unauthorized_dhcp.md)
 15. [**Synchronisation horaire**](/docs/ntp.md)
 
-## `> final model`
-![image](/screenshots/image-23.png)
+## `> final_model`
+![image-23](/screenshots/image-23.png)
 
 ---
 

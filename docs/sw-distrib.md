@@ -5,11 +5,11 @@
 ## `> quickstart`
 L'**objectif** est de sécuriser l'accès initial, désactiver les services inutiles, et préparer l’équipement pour une intégration dans l’infrastructure.
 
-## `> identification and security`
-- Configuration de l'identification de l'équipement
+## `> configuration`
+- Identification de l'équipement
 - Sécurisation de l'accès privilégié et de la console
 - Ajout d'une bannière d'avertissement
-- Configuration d'évitement de recherche DNS inutiles provoquées par erreur de saisie
+- Evitement de recherche DNS inutiles provoquées par erreur de saisie
 
 ```
 enable
@@ -17,9 +17,9 @@ configure terminal
 hostname SW-DISTRIB
 enable secret <MDP_CHIFFRE>
 line console 0
-password <MDP_CONSOLE>
-login
-exit
+    password <MDP_CONSOLE>
+    login
+    exit
 banner motd #ACCES RESTREINT AU SEUL PERSONNEL AUTORISE#
 no ip domain-lookup
 end
