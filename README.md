@@ -2,20 +2,20 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d0d0d,100:1a1a2e&fontColor=FF003C&fontSize=48&height=160&width=900&text=Network%20VLAN%20Packet%20Tracer&section=header&animation=fadeIn" alt="Header"/>
 </p>
 
-# `> tech_stack`
+## `> tech_stack`
 ![Static Badge](https://img.shields.io/badge/Cisco%20Packet%20Tracer-t?logo=cisco&logoColor=white&color=%231BA0D7)
 
-# `> overview`
+## `> overview`
 Mise en œuvre complète d'une infrastructure réseau segmentée : adressage VLSM, VLANs, routage inter-VLAN, OSPF sur liaison WAN, services DHCP/DNS/NTP et politiques de sécurité (SSH restreint, ACL, port-security, DHCP snooping).
 
 Maquette réalisée sur **Cisco Packet Tracer**. Le fichier de laboratoire est disponible dans `lab/topology.pkt` et les comptes rendus par domaine technique dans `docs/`.
 
 > Ce dépôt est référencé depuis [**SysNet Practice Labs**](https://github.com/SybillLabs/sysnet-practice-labs.git), le hub central de mes labs d'administration d'infrastructure sécurisée.
 
-# `> initial model`
+## `> initial model`
 ![image](/screenshots/image.png)
 
-# `> model perimeter`
+## `> model perimeter`
 
 | Exigence                                                 | Mise en œuvre                                                |
 | -------------------------------------------------------- | ------------------------------------------------------------ |
@@ -32,7 +32,7 @@ Maquette réalisée sur **Cisco Packet Tracer**. Le fichier de laboratoire est d
 | Protection DHCP                                          | DHCP snooping VLANs 10/20/30, ports trunk trusted            |
 | Horloge équipements                                      | NTP vers SRV-DHCP-DNS (192.168.200.2)                        |
 
-# `> equipment`
+## `> equipment`
 
 | Equipement    | Rôle                           | IP de management (VLAN 99) |
 | ------------- | ------------------------------ | -------------------------- |
@@ -43,7 +43,7 @@ Maquette réalisée sur **Cisco Packet Tracer**. Le fichier de laboratoire est d
 | SRV-DHCP-DNS  | DHCP, DNS, NTP                 | 192.168.200.2              |
 | SRV-WEB       | Serveur HTTP interne           | 192.168.200.1              |
 
-# `> documents`
+## `> documents`
 
 1. [**Plan d'adressage VLSM**](/docs/vlsm.md)
 2. [**Configuration initiale de `SW-DISTRIB`**](/docs/sw-distrib.md)
@@ -61,7 +61,7 @@ Maquette réalisée sur **Cisco Packet Tracer**. Le fichier de laboratoire est d
 14. [**Protection contre un serveur DHCP non autorisé**](/docs/unauthorized_dhcp.md)
 15. [**Synchronisation horaire**](/docs/ntp.md)
 
-# `> final model`
+## `> final model`
 ![image](/screenshots/image-23.png)
 
 ---
